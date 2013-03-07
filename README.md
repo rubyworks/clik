@@ -24,11 +24,9 @@ glance:
 ```ruby
   require 'clik'
 
-  opts = {}
-
-  cli '-w --whatever' => lambda{ opts[:whatever] = true },
-      '-f --file'     => lambda{ |f| opts[:file] = f },
-      '-h --help'     => lambda{ show_help }
+  cli '-f --file'  => lambda{ |f| @file = f },
+      '-d --debug' => lambda{ $DEBUG = true },
+      '-h --help'  => lambda{ show_help }
 ```
 
 There's very little to it really. The `cli` command simply maps command
@@ -86,10 +84,10 @@ really needs! Thank you, Michel!
 
 CLI.K is copyrighted open-source software.
 
-  Copyright (c) 2013 Rubyworks
+    Copyright (c) 2013 Rubyworks
 
 CLI.K is base on Michel Marten's Clap library.
 
-  Copyright (c) 2010 Michel Martens
+    Copyright (c) 2010 Michel Martens
 
 See LICENSE.txt and NOTICE.txt files for details.

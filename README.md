@@ -24,9 +24,11 @@ glance:
 ```ruby
   require 'clik'
 
-  cli '-w --whatever' => ->{ opt[:whatever] = true },
-      '-f --file'     => ->(f){ opts[:file] = f },
-      '-h --help'     => ->{ show_help }
+  opt = {}
+
+  cli '-w --whatever' => lambda{ opt[:whatever] = true },
+      '-f --file'     => lambda{ |f| opt[:file] = f },
+      '-h --help'     => lambda{ show_help }
 ```
 
 There's very liitle to it really. The `cli` command simply maps command

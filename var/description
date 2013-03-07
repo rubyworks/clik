@@ -1,0 +1,2 @@
+CLI.K stands for Command Line Interface in the Kernel. It provides a very 
+simple `cli` method for parsing command line options.

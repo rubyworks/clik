@@ -1,0 +1,61 @@
+---
+revision: 2013
+type: ruby
+sources:
+- var
+authors:
+- name: Trans
+  email: transfire@gmail.com
+organizations:
+- name: Rubyworks
+requirements:
+- groups:
+  - build
+  development: true
+  name: detroit
+- groups:
+  - test
+  development: true
+  name: qed
+conflicts: []
+alternatives: []
+resources:
+- type: home
+  uri: http://rubyworks.github.com/clik
+  label: Homepage
+- type: code
+  uri: http://github.com/rubyworks/clik
+  label: Source Code
+- type: docs
+  uri: http://rubydoc.info/gems/clik
+  label: Documentation
+- type: wiki
+  uri: http://wiki.github.com/rubyworks/clik
+  label: User Guide
+- type: bugs
+  uri: http://github.com/rubyworks/clik/issues
+  label: Issue Tracker
+- type: mail
+  uri: http://groups.google.com/group/rubyworks-mailinglist
+  label: Mailing List
+repositories:
+- name: upstream
+  scm: git
+  uri: git://github.com/rubyworks/clik.git
+categories: []
+copyrights:
+- holder: Rubyworks
+  year: '2013'
+  license: BSD-2-Clause
+customs: []
+paths:
+  lib:
+  - lib
+created: '2013-01-01'
+summary: Command-line Interface in the Kernel
+title: CLI.K
+version: 0.1.0
+name: clik
+description: ! "CLI.K stands for Command Line Interface in the Kernel. It provides
+  a very \nsimple `cli` method for parsing command line options."
+date: '2013-03-07'

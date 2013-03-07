@@ -1,0 +1,10 @@
+.ergo/digest
+.yardoc
+doc/
+log/
+pkg/
+tmp/
+web/
+/QED.md
+*.lock
+

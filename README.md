@@ -24,14 +24,14 @@ glance:
 ```ruby
   require 'clik'
 
-  opt = {}
+  opts = {}
 
-  cli '-w --whatever' => lambda{ opt[:whatever] = true },
-      '-f --file'     => lambda{ |f| opt[:file] = f },
+  cli '-w --whatever' => lambda{ opts[:whatever] = true },
+      '-f --file'     => lambda{ |f| opts[:file] = f },
       '-h --help'     => lambda{ show_help }
 ```
 
-There's very liitle to it really. The `cli` command simply maps command
+There's very little to it really. The `cli` command simply maps command
 line options to procedures which are used to process them. That's it.
 
 In our example, notice that `-w` and `--whatever` are easily defined as 
@@ -39,13 +39,14 @@ synonymous options. Simple. Then notice that the `-f/--file` option's
 procedure takes an argument, so the command line option takes an argument 
 as well. Again simple.
 
-The cli method has a few additonal niceities. It can handle run-on flags,
+The cli method has a few additional niceties. It can handle run-on flags,
 i.e. `-abc` is the same as `-a -b -c`. And you can pass it an alternate
 set of arguments to parse, as the first argument, to use something other 
 than the default `ARGV`.
 
 ```ruby
   argv = ['--testing']
+
   cli argv,
     ...
 ```
@@ -57,7 +58,7 @@ no descriptions given in our example. Well, guess what! It's really easy
 to print something out yourself. In fact, if you really want to *do it right*,
 create a manpage with [ronn](git://github.com/rtomayko/ronn.git) or
 [md2man](https://github.com/sunaku/md2man), and impress your friends.
-It's a much better approach then jamming all that verbage into you command
+It's a much better approach then jamming all that verbiage into you command
 line options parser code.
 
 ### Ask and you shell receive
@@ -65,18 +66,18 @@ line options parser code.
 In addition to `cli` CLI.K include the `ask` method. This is a very simple
 command line query method.
 
-  ans = ask "Are you nice? [Y/N]"
+    ans = ask "Are you nice? [Y/N]"
 
-Other Ruby libraries have thier own take on the #ask method, and this very
+Other Ruby libraries have their own take on the #ask method, and this very
 simple implementation can just as soon be overridden. No biggy. But it's nice
 to have for simple use cases.
 
 
-## Acknowledgements
+## Acknowledgments
 
 We have to give credit where credit is due. This interface is the great 
 achievement of Michel Martens, who created the original [Clap](https://github.com/soveran/clap)
-library from which CLI.K evolved. Mr. Martens deserives high praise for this
+library from which CLI.K evolved. Mr. Martens deserves high praise for this
 design. It's not easy to realize that this level of simplicity is all one
 really needs! Thank you, Michel!
 

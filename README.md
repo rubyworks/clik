@@ -5,14 +5,18 @@
 [Report Issue](http://github.com/rubyworks/clik/issues) /
 [Source Code](http://github.com/rubyworks/clik) &nbsp; &nbsp;
 [![Flattr Me](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/324911/Rubyworks-Ruby-Development-Fund)
-[![Build Status](https://travis-ci.org/rubyworks/clik.png)](https://travis-ci.org/rubyworks/clik)
-[![Gem Version](https://badge.fury.io/rb/clik.png)](http://badge.fury.io/rb/clik)
 
 
 ## About
 
 CLI.K stands for Command Line Interface in the Kernel. It provides a very 
 simple `cli` method for parsing command line options.
+
+
+## Status
+
+[![Build Status](https://travis-ci.org/rubyworks/clik.png)](https://travis-ci.org/rubyworks/clik)
+[![Gem Version](https://badge.fury.io/rb/clik.png)](http://badge.fury.io/rb/clik)
 
 
 ## Usage

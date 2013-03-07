@@ -24,8 +24,8 @@ glance:
 ```ruby
   require 'clik'
 
-  cli '-w --whatever' => ->{ whatever = true },
-      '-f --file'     => ->{ |f| file = f },
+  cli '-w --whatever' => ->{ opt[:whatever] = true },
+      '-f --file'     => ->(f){ opts[:file] = f },
       '-h --help'     => ->{ show_help }
 ```
 

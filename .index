@@ -14,9 +14,17 @@ requirements:
   development: true
   name: detroit
 - groups:
+  - build
+  development: true
+  name: ergo
+- groups:
   - test
   development: true
   name: qed
+- groups:
+  - test
+  development: true
+  name: ae
 conflicts: []
 alternatives: []
 resources:

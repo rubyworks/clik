@@ -1,12 +1,19 @@
 # CLI.K
 
+[Website](http://rubyworks.github.com/clik) /
+[Report Issue](http://github.com/rubyworks/clik/issues) /
+[Source Code](http://github.com/rubyworks/clik)
+
+
+## About
+
 CLI.K stands for Command Line Interface in the Kernel. It provides a very 
-simple `cli` method for parsing command line options. CLI.K is an extended
-verion of ...'s Clap library.
+simple `cli` method for parsing command line options.
+
 
 ## Usage
 
-## They call it "K.I.S.S."
+### They call it "K.I.S.S."
 
 Usage is very straightforward, although it might look a little odd at first
 glance:
@@ -35,7 +42,7 @@ as well. Again simple.
 The cli method has a few additonal niceities. It can handle run-on flags, i.e.
 `-abc` is the same as `-a -b -c`.
 
-## You need help, no you really don't
+### You need help, no you really don't
 
 At this point, you might be wonder about help output. Clearly there are
 no descriptions given in our example. Well, guess what! It's really easy
@@ -44,7 +51,7 @@ create a manpage with [ronn]() or [md2man](), and impress your friends. It's
 a much better approach then jamming all that verbage into you command line
 options parser code.
 
-## Ask and you shell receive
+### Ask and you shell receive
 
 In addition to `cli` CLI.K include the `ask` method. This is a very simple
 command line query method.
@@ -55,15 +62,20 @@ Other Ruby programs have there own ask methods, and can just as soon override
 this very simple one, no big deal. But it's nice to have for simple use cases.
 
 
+## Acknowledgements
+
+Many thanks are in order to Michel Martens and his Clap library, who (AFAIK)
+pioneered the simple and elegant approach to option parsing.
+
+
 ## Copyrights & License
 
 CLI.K is copyrighted open-source software.
 
   Copyright (c) 2013 Rubyworks
 
-CLI.K is base on ... Clap library.
+CLI.K is base on Michel Marten's Clap library.
 
-  Copyright (c) ...
+  Copyright (c) 2010 Michel Martens
 
 See LICENSE.txt and NOTICE.txt files for details.
-

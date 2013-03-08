@@ -15,8 +15,8 @@ simple `cli` method for parsing command line options.
 
 ## Status
 
-[![Build Status](https://travis-ci.org/rubyworks/clik.png)](https://travis-ci.org/rubyworks/clik)
 [![Gem Version](https://badge.fury.io/rb/clik.png)](http://badge.fury.io/rb/clik)
+[![Build Status](https://travis-ci.org/rubyworks/clik.png)](https://travis-ci.org/rubyworks/clik)
 
 
 ## Usage

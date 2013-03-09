@@ -61,7 +61,7 @@ no descriptions given in our example. Well, guess what! It's really easy
 to print something out yourself. In fact, if you really want to *do it right*,
 create a manpage with [ronn](git://github.com/rtomayko/ronn.git) or
 [md2man](https://github.com/sunaku/md2man), and impress your friends.
-It's a much better approach then jamming all that verbiage into you command
+It's a much better approach then jamming all that verbiage into the command
 line options parser code.
 
 ### Ask and you shell receive

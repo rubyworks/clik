@@ -66,7 +66,7 @@ line options parser code.
 
 ### Ask and you shell receive
 
-In addition to `cli` CLI.K include the `ask` method. This is a very simple
+In addition to #cli, CLI.K provides the #ask method. This is a very simple
 command line query method.
 
     ans = ask "Are you nice? [Y/N]"

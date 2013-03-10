@@ -37,7 +37,7 @@ glance:
 There's very little to it really. The `cli` command simply maps command
 line options to procedures which are used to process them. That's it.
 
-In our example, notice that `-w` and `--whatever` are easily defined as 
+In our example, notice that `-f` and `--file` are easily defined as 
 synonymous options. Simple. Then notice that the `-f/--file` option's
 procedure takes an argument, so the command line option takes an argument 
 as well. Again simple.

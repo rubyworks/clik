@@ -56,7 +56,7 @@ than the default `ARGV`.
 
 ### You need help, no you really don't
 
-At this point, you might be wonder about help output. Clearly there are
+At this point, you might be wondering about help output. Clearly there are
 no descriptions given in our example. Well, guess what! It's really easy
 to print something out yourself. In fact, if you really want to *do it right*,
 create a manpage with [ronn](git://github.com/rtomayko/ronn.git) or

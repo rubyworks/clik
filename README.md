@@ -69,7 +69,7 @@ line options parser code.
 In addition to #cli, CLI.K provides the #ask method. This is a very simple
 command line query method.
 
-    ans = ask "Are you nice? [Y/N]"
+    ans = ask "Are you nice? [Y/n]"
 
 Other Ruby libraries have their own take on the #ask method, and this very
 simple implementation can just as soon be overridden. No biggy. But it's nice

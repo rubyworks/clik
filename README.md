@@ -1,6 +1,6 @@
 # CLI.K
 
-[Website](http://rubyworks.github.com/clik) /
+[Website](http://github.com/rubyworks/clik) /
 [Documentation](http://rubydoc.info/gems/clik/frames) /
 [Report Issue](http://github.com/rubyworks/clik/issues) /
 [Source Code](http://github.com/rubyworks/clik) &nbsp; &nbsp;
